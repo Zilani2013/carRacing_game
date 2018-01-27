@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Car Racr 2.0</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body id="race">
+
+    <h1>jQuery Car Racr 2.0</h1>
+
+
+    <input type="button" id="go" value="Race!">
+    <input type="button" id="reset" value="Reset">
+
+    <div id="racetrack">
+      <img src="img/car1.png" alt="Green car" id="car1" class="car"/>
+      <img src="img/car2.png" alt="Red car" id="car2" class="car"/>
+    </div>
+
+    <div id="raceInfoContainer" class="clearfix">
+      <h2>Results</h2>
+      <div id="raceInfo1" class="raceInfo">Car 1<span></span></div>
+      <div id="raceInfo2" class="raceInfo">Car 2<span></span></div>
+    </div>
+      
+      
+      
+      
+      <!-- Load The CDN -->
+
+	<script src="//code.jQuery.com/jquery-3.3.1.min.js"></script>
+
+<!--if CDN is unavailable-->
+	<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.js"><\/script>');</script>
+
+		<!-- Custom jQuery -->
+	<script src="js/script.js"></script>
+
+  </body>
+    
+</html>
